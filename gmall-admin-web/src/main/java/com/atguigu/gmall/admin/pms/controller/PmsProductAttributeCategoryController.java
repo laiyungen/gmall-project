@@ -58,7 +58,7 @@ public class PmsProductAttributeCategoryController {
                           @RequestParam(defaultValue = "1") Integer pageNum) {
 
 
-        PageInfoVo pageInfoVo = productAttributeCategoryService.roductAttributeCategoryPageInfo(pageNum,pageSize);
+        PageInfoVo pageInfoVo = productAttributeCategoryService.productAttributeCategoryPageInfo(pageNum,pageSize);
 
         return new CommonResult().success(pageInfoVo);
     }

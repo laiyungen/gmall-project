@@ -14,5 +14,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface ProductAttributeCategoryService extends IService<ProductAttributeCategory> {
 
-    PageInfoVo roductAttributeCategoryPageInfo(Integer pageNum, Integer pageSize);
+    PageInfoVo productAttributeCategoryPageInfo(Integer pageNum, Integer pageSize);
 }
